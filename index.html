@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-	<title>Dev Portfolio</title>
+	<title>Emir F. // Dev Portfolio</title>
 	<link rel="stylesheet" href="CSS/main.css"/>
-	<style>
-		#container1 {
-			max-width: 960px;
-			margin: 0 auto;
-		}
-	</style>
 </head>
 <body>
-	<div id="container1">
-		<header style="border-style: dotted; border-width: 2px; border-color: #9C9B94; border-top: none; border-left: none; border-right: none;">
-			<h2 class="headers">Emir Fils-Aime</h2>
-			<h3 class="headers">{ Web Development 100 Portfolio }</h3>
-		</header>
-		<div>
-			<ul class="headers">
-				<li><a href="">Assignment 1: Basic Two-Pager</a></li>
-				<li><a href="">Assignment 2: Add CSS to HTML</a></li>
-				<li><a href="">Assignment 3: CSS Layouts & Github</a></li>
-			</ul>
-		</div>
+	<div id="container" style="border-style: dotted; border-width: 2px; border-color: #9C9B94; border-top: none; border-left: none; border-right: none;">
+	<header>
+		<h2 class="headers">Emir Fils-Aime</h2>
+		<h3 class="headers">{ Web Development 100 Portfolio }</h3>
+	</header>
+	<div id="welcomeDiv">
+		<img src="images/fatLady.jpg" style="border-radius: 100px;"/>
+		<h2 class="headers">Password?</h2>
+		<input type="text" placeholder="Password is 'CodeMe'" style="height: 50px; width: 200px; font-family: 'Kaushan Script', cursive; text-align: center; color: #A54026; font-size: 105%;" id="pWord" onkeypress="enterThis(event)">
+	</div>
 	</div>
 	<script src="JS/script.js"></script>
 </body>

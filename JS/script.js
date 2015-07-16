@@ -12,6 +12,6 @@ function enterThis(event){
 function validateThis() {
 	pass = document.getElementById("pWord").value;
 	if (pass === passThis) {
-		window.location="index.html";
+		window.location = "work.html";
 	}
 }
